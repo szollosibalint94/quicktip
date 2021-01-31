@@ -11,10 +11,10 @@ import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
-public class XMLReader {
+public class ReadFromXML {
     public String getFilePath()
     {
-        File file = new File("src/main/resources/quicktip_params.xml");
+        File file = new File("src/main/resources/quicktip1_params.xml");
         return file.getAbsolutePath();
     }
 
@@ -34,7 +34,7 @@ public class XMLReader {
 
                 public void startElement(String uri, String localName,String qName,
                     Attributes attributes) throws SAXException {
-                    System.out.println("Start Element :" + qName);
+                    //System.out.println("Start Element :" + qName);
 
                     if (qName.equalsIgnoreCase("MAXRANDOMVALUE")) {
                         bMaxRandValue = true;
@@ -52,24 +52,27 @@ public class XMLReader {
                 public void endElement(String uri, String localName,
                     String qName) throws SAXException {
 
-                    System.out.println("End Element :" + qName);
+                    //System.out.println("End Element :" + qName);
 
                 }
 
                 public void characters(char ch[], int start, int length) throws SAXException {
 
                     if (bMaxRandValue) {
-                        System.out.println("First Name : " + new String(ch, start, length));
+                        //System.out.println("Max Random value : " + new String(ch, start, length));
+                        xmlValues.add(Integer.parseInt(new String(ch, start, length)));
                         bMaxRandValue = false;
                     }
 
                     if (bRandNumCount) {
-                        System.out.println("Last Name : " + new String(ch, start, length));
+                        //System.out.println("Random number count : " + new String(ch, start, length));
+                        xmlValues.add(Integer.parseInt(new String(ch, start, length)));
                         bRandNumCount = false;
                     }
 
                     if (bNumOfPanels) {
-                        System.out.println("Nick Name : " + new String(ch, start, length));
+                        //System.out.println("Number of panels : " + new String(ch, start, length));
+                        xmlValues.add(Integer.parseInt(new String(ch, start, length)));
                         bNumOfPanels = false;
                     }
                 }
