@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb5f5c66-7575-42bd-814c-cc1217873f26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/szollosib/quicktip/domain/TipCoupon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/szollosib/quicktip/domain/TipTicket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/szollosib/quicktip/domain/TipPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/szollosib/quicktip/domain/TipPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/szollosib/quicktip/service/QuickTip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/szollosib/quicktip/service/QuickTip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/szollosib/quicktip/app/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/szollosib/quicktip/app/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/szollosib/quicktip/service/XMLReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/szollosib/quicktip/service/XMLReader.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +32,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -45,6 +45,26 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.szollosib.quicktip.app.App" />
+      <module name="quicktip" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.szollosib.quicktip.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />

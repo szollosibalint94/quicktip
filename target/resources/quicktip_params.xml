@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<quicktip>
+    <method id="1">
+        <maxrandomvalue>90</maxrandomvalue>
+        <randomnumbercount>5</randomnumbercount>
+        <numofpanels>1</numofpanels>
+    </method>
+    <method id="2">
+        <randomnumbercount>5</randomnumbercount>
+        <numofpanels>3</numofpanels>
+    </method>
+    <method id="3">
+        <maxrandomvalue>90</maxrandomvalue>
+        <randomnumbecount>7</randomnumbecount>
+        <numofpanels>5</numofpanels>
+    </method>
+</quicktip>
