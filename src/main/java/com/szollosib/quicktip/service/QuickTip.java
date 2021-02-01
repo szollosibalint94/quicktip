@@ -4,7 +4,7 @@ import java.util.List;
 
 import com.szollosib.quicktip.domain.TipPanel;
 
-public interface QuickTip {
+public interface QuickTip<T> {
     public void importXmlValues();
     public int numberSet();
     public int numOfRandValues();

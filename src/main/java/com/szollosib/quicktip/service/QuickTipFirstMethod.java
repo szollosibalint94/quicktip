@@ -29,7 +29,7 @@ public class QuickTipFirstMethod implements QuickTip {
     @Override public TipPanel generateOutput(int numberSet, int numOfRandValues, int numOfPanels) {
         List<Integer> randomNumbers = new ArrayList<>();
         for (int i = 0; i < numOfRandValues; i++) {
-            randomNumbers.add(RandNum.GenerateRandomNumber(numberSet));
+            randomNumbers.add(randNum.GenerateRandomNumber(numberSet));
         }
         return new TipPanel(randomNumbers);
     }

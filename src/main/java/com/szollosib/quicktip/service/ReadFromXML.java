@@ -20,7 +20,7 @@ public class ReadFromXML {
 
     public List<Integer> getValueFromXml(int methodId)
     {
-        List<Integer> xmlValues = new ArrayList<Integer>();
+        List<Integer> xmlValues = new ArrayList<>();
         try {
 
             SAXParserFactory factory = SAXParserFactory.newInstance();
