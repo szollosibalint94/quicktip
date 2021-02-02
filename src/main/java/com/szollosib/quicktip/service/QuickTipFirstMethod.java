@@ -5,17 +5,15 @@ import java.util.List;
 
 import com.szollosib.quicktip.domain.TipPanel;
 
-public class QuickTipFirstMethod implements QuickTip {
-    private List<Integer> xmlValues;
-    private RandNum randNum = new RandNum();
+public class QuickTipFirstMethod extends QuickTipMethod {
 
-    @Override public void importXmlValues() {
-        ReadFromXML xmlReader = new ReadFromXML();
-        xmlValues = xmlReader.getValueFromXml(1);
+    public QuickTipFirstMethod(String filepath) {
+        super(filepath);
     }
 
-    @Override public int numberSet() {
-        return randNum.GenerateRandomNumber(xmlValues.get(0));
+    @Override
+    public int numberSet() {
+        return randNum.generateRandomNumber(xmlValues.get(0));
     }
 
     @Override public int numOfRandValues() {
@@ -29,7 +27,7 @@ public class QuickTipFirstMethod implements QuickTip {
     @Override public TipPanel generateOutput(int numberSet, int numOfRandValues, int numOfPanels) {
         List<Integer> randomNumbers = new ArrayList<>();
         for (int i = 0; i < numOfRandValues; i++) {
-            randomNumbers.add(randNum.GenerateRandomNumber(numberSet));
+            randomNumbers.add(randNum.generateRandomNumber(numberSet));
         }
         return new TipPanel(randomNumbers);
     }

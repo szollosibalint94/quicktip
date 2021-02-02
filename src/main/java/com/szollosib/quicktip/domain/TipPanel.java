@@ -18,5 +18,7 @@ public class TipPanel {
     }
 
     @Override
-    public String toString() { return String.format(lotteryNumbers.toString());}
+    public String toString() {
+        return String.format(lotteryNumbers.toString());
+    }
 }
