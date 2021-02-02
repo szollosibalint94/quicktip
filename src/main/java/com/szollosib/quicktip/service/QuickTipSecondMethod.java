@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.szollosib.quicktip.domain.TipPanel;
+import com.szollosib.quicktip.domain.TipTicket;
 
 public class QuickTipSecondMethod extends QuickTipMethod {
 
@@ -13,22 +14,27 @@ public class QuickTipSecondMethod extends QuickTipMethod {
 
     @Override
     public int numberSet() {
-        return randNum.generateRandomNumber(xmlValues.get(0));
+        return 90;
     }
 
     @Override public int numOfRandValues() {
-        return xmlValues.get(1);
+        return xmlValues.get(0);
     }
 
     @Override public int numOfPanels() {
-        return 1;
+        return xmlValues.get(1);
     }
 
-    @Override public TipPanel generateOutput(int numberSet, int numOfRandValues, int numOfPanels) {
-        List<Integer> randomNumbers = new ArrayList<>();
-        for (int i = 0; i < numOfRandValues; i++) {
-            randomNumbers.add(randNum.generateRandomNumber(numberSet));
+    @Override public TipTicket generateOutput(int numberSet, int numOfRandValues, int numOfPanels) {
+        List<Integer> randomNumbers;
+        TipTicket tipTicket = new TipTicket();
+        for (int i = 0; i < numOfPanels; i++) {
+            randomNumbers = new ArrayList<>();
+            for (int j = 0; j < numOfRandValues; j++) {
+                randomNumbers.add(randNum.generateRandomNumber(numberSet));
+            }
+            tipTicket.addLotteryPanel(new TipPanel(randomNumbers));
         }
-        return new TipPanel(randomNumbers);
+        return tipTicket;
     }
 }

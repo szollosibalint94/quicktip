@@ -1,22 +1,17 @@
 package com.szollosib.quicktip.domain;
 
+import java.util.ArrayList;
 import java.util.List;
 
-public class TipTicket {
-    public TipTicket(List<TipPanel> lotteryPanels) {
-        this.lotteryPanels = lotteryPanels;
-    }
+public class TipTicket extends TipPanel {
+    private List<TipPanel> lotteryPanels = new ArrayList<>();
 
-    private List<TipPanel> lotteryPanels;
-
-    public List<TipPanel> getLotteryPanels() {
-        return lotteryPanels;
-    }
-
-    public void setLotteryPanels(List<TipPanel> lotteryPanels) {
-        this.lotteryPanels = lotteryPanels;
+    public void addLotteryPanel(TipPanel tipPanel) {
+        lotteryPanels.add(tipPanel);
     }
 
     @Override
-    public String toString() { return String.format(lotteryPanels.toString());}
+    public String toString() {
+        return String.format(lotteryPanels.toString());
+    }
 }
