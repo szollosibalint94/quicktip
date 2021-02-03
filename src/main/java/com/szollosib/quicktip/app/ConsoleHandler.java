@@ -13,9 +13,9 @@ public class ConsoleHandler {
     private static String commandInput = "something";
     private static int numOfTickets = 0;
 
-    private static String FIRST_METHOD_FILE_PATH = "src/main/resources/quicktip1_params.xml";
-    private static String SECOND_METHOD_FILE_PATH = "src/main/resources/quicktip2_params.xml";
-    private static String THIRD_METHOD_FILE_PATH = "src/main/resources/quicktip3_params.xml";
+    private static final String FIRST_METHOD_FILE_PATH = "src/main/resources/quicktip1_params.xml";
+    private static final String SECOND_METHOD_FILE_PATH = "src/main/resources/quicktip2_params.xml";
+    private static final String THIRD_METHOD_FILE_PATH = "src/main/resources/quicktip3_params.xml";
 
     public static void LaunchConsoleApp() throws Exception  {
         in = new Scanner(System.in);

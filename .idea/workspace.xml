@@ -2,26 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a75bc79-348d-48e9-998c-ac6bb1e1c1fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/szollosib/quicktip/app/ConsoleHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/szollosib/quicktip/app/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/szollosib/quicktip/app/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/szollosib/quicktip/domain/TipPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/szollosib/quicktip/domain/TipPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/szollosib/quicktip/domain/TipTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/szollosib/quicktip/domain/TipTicket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/szollosib/quicktip/service/QuickTip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/szollosib/quicktip/service/QuickTip.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/szollosib/quicktip/service/QuickTipSecondMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/szollosib/quicktip/service/QuickTipSecondMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/szollosib/quicktip/service/QuickTipThirdMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/szollosib/quicktip/service/QuickTipThirdMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/szollosib/quicktip/service/ReadFromXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/szollosib/quicktip/service/ReadFromXML.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/quicktip3_params.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/quicktip3_params.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/szollosib/quicktip/app/App$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/szollosib/quicktip/app/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/szollosib/quicktip/app/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/szollosib/quicktip/domain/TipPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/szollosib/quicktip/domain/TipPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/szollosib/quicktip/domain/TipTicket.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/szollosib/quicktip/domain/TipTicket.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/szollosib/quicktip/service/QuickTipFirstMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/szollosib/quicktip/service/QuickTipFirstMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/szollosib/quicktip/service/QuickTipMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/szollosib/quicktip/service/QuickTipMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/szollosib/quicktip/service/QuickTipSecondMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/szollosib/quicktip/service/QuickTipSecondMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/szollosib/quicktip/service/QuickTipThirdMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/szollosib/quicktip/service/QuickTipThirdMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/szollosib/quicktip/service/ReadFromXML$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/szollosib/quicktip/service/ReadFromXML$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resources/quicktip2_params.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resources/quicktip2_params.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/szollosib/quicktip/app/ConsoleHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/szollosib/quicktip/app/ConsoleHandler.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +28,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunDashboard">
